@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background:#D6D6D6;
+}
+h3{
+    margin-bottom:20px;
+}
+
+/*Business Owner's Part*/
+.ownerContact .owner{
+    display:block;
+    height:330px;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 500px;
+}
+.ownerContact .items{
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom:20px;
+}
+.ownerContact .text{
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding-left:10px;
+}
+.ownerContact i{
+    font-size:38px;
+}
+.ownerContact #facebook{
+    color:#4267B2;
+}
+.ownerContact .num{
+    color:#37474F;
+}
+.ownerContact .email{
+    color:#820000;
+}
+.ownerContact #location{
+    color:#FF3D00;
+}
+
+/*Developer's Part*/
+.developerContact .developer{
+    display:block;
+    height:200px;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 500px;
+}
+.developerContact h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:500px;
+    font-size:30px;
+}
+.developerContact h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:28px;
+}
+.developerContact a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.developerContact .items{
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom:10px;
+}
+.developerContact .text{
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-left:10px;
+}
+.developerContact i{
+    font-size:28px;
+}
+.developerContact .email{
+    color:#820000;
+}
+.developerContact .num{
+    color:#37474F;
+}
+@media screen and (max-width: 800px){
+    h2{
+        font-size:40px;
+    }
+    /*Business Owner's Part*/
+    .ownerContact .owner{
+        height:300px;
+        width:auto;
+    }
+    .ownerContact h3{
+        margin-top:10px;
+        font-size:35px;
+        text-align: center;
+    }
+    .ownerContact h4{
+        font-size:25px;
+        text-align: center;
+    }
+    .ownerContact .text{
+        font-size: 18px;
+    }
+    .ownerContact i{
+        font-size:28px;
+        margin-left:90px;
+    }
+
+    /*Developer's Part*/
+    .developerContact .developer{
+        height:190px;
+        width:auto;
+    }
+    .developerContact h3{
+        margin-top:10px;
+        font-size:28px;
+        text-align: center;
+    }
+    .developerContact h4{
+        font-size:24px;
+        text-align: center;
+    }
+    .developerContact .text{
+        font-size: 18px;
+    }
+    .developerContact i{
+        font-size:28px;
+        margin-left:120px;
+    }
+}
